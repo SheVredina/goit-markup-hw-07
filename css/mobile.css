@@ -1,0 +1,147 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 396px;
+    padding: 0;
+    margin: 0 auto;
+    outline: 1px solid gray;
+  }
+
+   .header-list {
+    display: none;
+  }
+  address {
+    display: none;
+  }
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }  
+
+  .banner {
+    width: 428px;
+    height: 432px;
+    padding-top: 112px;
+    margin-bottom: 96px;
+  }
+  .banner-text {
+    max-width: 320px;
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+  .feature {
+    padding: 0;
+  }
+  
+
+  .feature-list-tytle {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+  .feature-list-text {
+    font-weight: 500;
+  }
+  .feature-list-item {
+    margin-bottom: 72px;
+  }
+  .feature-list :last-child {
+    margin-bottom: 0;
+  }
+  .feature-list {
+    margin-bottom: 96px;
+  }
+  
+  .team {
+    background-color: var(--second-bg-color);
+    padding-top: 96px;
+    padding-bottom: 128px;
+  }
+  .team-tytel {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .team-list {
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+    justify-content: center;
+  }
+  .customers {
+padding-top: 96px;
+padding-bottom: 96px;
+  }
+  .customers-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .customers-list-link {
+    width: 190px;
+    height: 88px;
+  }
+
+  footer {
+    height: 662px;
+    padding: 96px 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    }
+
+.footer-link {
+justify-content: center;
+}
+.footer-text {
+      max-width: 268px;
+      margin-bottom: 40px;
+    margin: auto;
+    justify-content: center;
+}
+
+.input-subscribe {
+   width: 396px;
+}
+.footer-soc {
+    margin: 0;
+}
+.footer-title {
+    margin-top: 72px;
+    text-align: center;
+}
+.footer-soc-list {
+justify-content: center;
+  gap: 16px;
+}
+.title-subscribe {
+    margin-top: 72px;
+    margin-bottom: 16px;
+    text-align: center;
+
+}
+.forma-subscribe {
+    flex-direction: column;
+    align-items: center;
+    }
+.btn-subscribe {
+    margin-top: 16px;
+}
+}
+@media screen and (max-width: 1200px) {
+  .feature-icon,
+  .feature-list-logo {
+    display: none;
+  }
+  .promo {
+    display: none;
+}
+}
