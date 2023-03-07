@@ -131,4 +131,12 @@ margin-bottom: 40px;
   .btn-subscribe {
     margin-top: 0;
   }
+  .modal {
+    width: 408px;
+    min-height: 586px;
+}
+.mobile-menu-btn {
+  display: none;
+
+}
 }

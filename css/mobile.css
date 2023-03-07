@@ -17,6 +17,8 @@
     padding-bottom: 24px;
   }  
 
+
+
   .banner {
     width: 428px;
     height: 432px;
@@ -135,13 +137,94 @@ justify-content: center;
 .btn-subscribe {
     margin-top: 16px;
 }
+.header-container {
+  justify-content: space-between;
+
 }
+.mobile-menu-btn {
+  stroke: #2E2F42;
+  border: none;
+  width: 32px;
+  height: 22px;
+  background: transparent ;
+}
+.mob-menu-close {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: #2e2f42;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.mob-menu {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  padding: 40px;
+  z-index: 1;
+
+}
+.mob-menu-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+color: #2E2F42;
+
+ }
+ .mob-menu-item:not(:last-child){
+  margin-bottom: 40px;
+ }
+ .mob-menu-tel {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+    color: #4D5AE5;
+ }
+ .mob-menu-mail {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #434455;
+
+
+ }
+ 
+}
+
+
+
+
 @media screen and (max-width: 1200px) {
   .feature-icon,
   .feature-list-logo {
     display: none;
   }
   .promo {
-    display: none;
+    display: none ;
 }
+.modal {
+  width: 392px;
+  min-height: 586px;
 }
+  
+}
+
+
+
+
+
+
+

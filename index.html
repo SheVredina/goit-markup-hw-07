@@ -70,10 +70,81 @@
             </li>
           </ul>
         </address>
+        <button class="mobile-menu-btn" data-menu-open  type="button">
+          <svg class="mobile-btn-icon" width="20" height="20">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
+
+<div class="mob-menu" data-menu>
+  <button type="button" class="mob-menu-close" data-menu-close >   
+       <svg class="icon-close" width="8" height="8">
+      <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+    </svg>
+  </button>
+  <ul class="mob-menu-list list ">
+      <li class="mob-menu-item">
+        <a
+          class="link mob-menu-nav "
+          href="./index.html"
+          >Studio</a>
+      </li>
+      <li class="mob-menu-item">
+        <a class="link mob-menu-nav" href="./portfolio.html">Portfolio</a>
+      </li>
+      <li class="mob-menu-item">
+        <a class="link mob-menu-nav current" href="./index.html">Contacts</a>
+      </li>
+    
+  </ul>
+  
+    <a class="link mob-menu-tel"
+                style="color: inherit"
+                href="tel:+110001111111"
+                >+11 (000) 111-11-11</a>
+    <a class="link mob-menu-mail"
+                style="color: inherit"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a>
+
+                <ul class="team-soc-list list">
+                  <li class="team-soc-item">
+                    <a class="team-soc-link" href="">
+                      <svg class="team-soc-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link" href="">
+                      <svg class="team-soc-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link" href=""
+                      ><svg class="team-soc-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link" href=""
+                      ><svg class="team-soc-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+
     </header>
     <main>
-      <!-- Banner -->
+      
+      <!--Banner-->
       <section class="banner">
         <div class="container banner-container">
           <h1 class="banner-text">Effective Solutions for Your Business</h1>
@@ -139,7 +210,7 @@
         </div>
       </section>
 
-      <!-- What are we doing -->
+      <!--What are we doing-->
       <section class="promo">
         <div class="container">
           <h2 class="promo-tytel">What are we doing</h2>
@@ -169,7 +240,7 @@
         </div>
       </section>
 
-      <!-- Team -->
+      <!--Team-->
       <section class="team">
         <div class="container">
           <h2 class="team-tytel">Our Team</h2>
@@ -391,9 +462,61 @@
           </ul>
         </div>
       </section>
-    
+    </main>
 
-          <!-- <div class="input-field">
+    <div class="backdrop  is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="input-field">
+            <label class="input-text" for="name">Name </label>
+            <span class="input-wrap">
+              <input
+                type="text"
+                class="modal-input"
+                name="user-name"
+                id="name"
+              />
+              <svg class="icon-modal" width="18" height="18">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="input-field">
+            <label class="input-text" for="phone">Phone </label>
+            <span class="input-wrap">
+              <input
+                type="tel"
+                class="modal-input"
+                name="user-phone"
+                id="phone"
+              />
+              <svg class="icon-modal" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="input-field">
+            <label class="input-text" for="email">Email </label>
+            <span class="input-wrap">
+              <input
+                type="email"
+                class="modal-input"
+                name="user-email"
+                id="email"
+              />
+              <svg class="icon-modal" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="input-field">
             <label class="input-text" for="comment">Comment</label>
             <textarea
               name="user-comment"
@@ -413,9 +536,9 @@
         </form>
         <button type="submit" class="modal-button">Send</button>
       </div>
-    </div>-->
+    </div>
 
-    <!-- Footer-->
+    <!--Footer-->
     <footer>
       <div class="container footer-container">
         <div class="footer-info">
@@ -427,7 +550,6 @@
             digital marketing & growth solutions.
           </p>
         </div>
-
         <div class="footer-soc">
           <h3 class="footer-title">Social media</h3>
           <ul class="footer-soc-list list">
@@ -461,8 +583,6 @@
             </li>
           </ul>
         </div>
-      
-
         
         <div class="footer-subscribe">
 <p class="title-subscribe">Subscribe</p>
@@ -472,12 +592,9 @@
       <svg class="" width="24" height="24">
         <use href="./images/icons.svg#icon-Frame-3"></use>
       </svg> </button>
-        </div>
-
      </div>
-</div>
-
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
