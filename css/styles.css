@@ -43,7 +43,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #2e2f42;
-  /* background-color: #f69696; */
 }
 .link {
   text-decoration: none;
@@ -54,16 +53,18 @@ body {
 .section {
   padding: 120px;
 }
+
+.no-scroll {
+  overflow: hidden;
+}
 .container {
-  /* max-width: 1158px;
-  padding: 0 15px; */
+  width: 100%;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 /* Header */
 .header {
   padding-top: 24px;
-
 }
 .header-container {
   display: flex;
@@ -77,13 +78,13 @@ body {
   display: flex;
 }
 .header-container {
-  display: flex; }
+  display: flex;
+}
 
-
- .header-list-container {
+.header-list-container {
   display: flex;
   gap: 40px;
-} 
+}
 
 .header-logo {
   margin-right: 76px;
@@ -138,7 +139,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/banner.jpg);
+    url(../images/banner-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -151,7 +152,6 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
- 
 }
 .banner-btn {
   display: block;
@@ -204,9 +204,9 @@ body {
 }
 
 /* -----------------------Team ----------------------*/
+
 .team {
   background-color: var(--second-bg-color);
-
 }
 .team-tytel {
   margin-bottom: 72px;
@@ -217,7 +217,7 @@ body {
   text-align: center;
 }
 .team-list {
-   display: flex;
+  display: flex;
 }
 .team-list-item {
   width: calc(100% - 72px) / 4;
@@ -244,6 +244,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
+
 /* ------------Team socialnue seti -----------------*/
 .team-soc-list {
   display: flex;
@@ -288,7 +289,6 @@ body {
 .customers-list {
   display: flex;
   justify-content: center;
- 
 }
 .customers-list-link {
   display: flex;
@@ -554,7 +554,6 @@ footer {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-
 
 .footer-soc-list {
   display: flex;
