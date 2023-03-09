@@ -17,24 +17,35 @@
     content: "";
     bottom: -28px;
   }
+ 
+  .banner-text {
+    margin-bottom: 48px;
+    max-width: 494px;
+  }
   .banner {
     width: 1440px;
     height: 600px;
     padding-top: 180px;
     padding-bottom: 300px;
     margin-bottom: 112px;
-  }
-  .banner-text {
-    margin-bottom: 48px;
-  }
-  .banner {
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/banner.jpg);
+      url(../images/banner1x.jpg);
+      }
+
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .banner {
+        background-image:linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ), url('../images/banner-tablet2x.jpg');}
+       
       }
 
 
