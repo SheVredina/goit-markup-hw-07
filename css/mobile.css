@@ -13,9 +13,11 @@
   .header {
     padding-bottom: 24px;
   }
-
+ .open {
+color: #4d5ae5;
+ }
   .banner {
-    width: 428px;
+    /* width: 428px; */
     height: 432px;
     padding-top: 112px;
     margin-bottom: 96px;
@@ -50,6 +52,11 @@
   .feature-list {
     margin-bottom: 96px;
   }
+  
+  .team {
+    padding-top: 96px;
+    padding-bottom: 128px;
+  }
 
   .team-list {
     flex-direction: column;
@@ -59,15 +66,20 @@
   .team-list-item {
     width: 267px;
   }
+  .no-centr {
+    justify-content: left;
+  }
 
   .customers {
     padding-top: 96px;
     padding-bottom: 96px;
   }
   .customers-list {
-    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 16px;
+    column-gap: 16px;
+    row-gap: 72px;
+  
   }
 
   .customers-list-link {
@@ -93,11 +105,7 @@
     margin: auto;
     justify-content: center;
   }
-
-  .input-subscribe {
-    min-width: 396px;
-  }
-  .footer-soc {
+    .footer-soc {
     margin: 0;
   }
   .footer-title {
