@@ -1,7 +1,8 @@
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1128px;
-   
+    max-width: 1158px;
+    padding-left: 0;
+    padding-right: 0; 
   }
   .mob-menu {
     display: none;
@@ -10,7 +11,7 @@
     padding-bottom: 28px;
   }
   .header-container {
-    width: 1128px;
+    width: 1158px;
     align-items: center;
     justify-content: space-between;
   }
@@ -32,7 +33,7 @@
     max-width: 494px;
   }
   .banner {
-    width: 1440px;
+    max-width: 1440px;
     height: 600px;
     padding-top: 180px;
     padding-bottom: 300px;
@@ -55,17 +56,18 @@
         ), url('../images/banner-tablet2x.jpg');}
        
       }
-
+         
 
   .feature {
-    margin-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
     padding-top: 112px;
     padding-bottom: 120px;
   }
   .feature-list-item {
     width: 264px;
+  }
+
+  .feature-list {
+    justify-content: space-between;
   }
 
   .feature-list-tytle {
@@ -103,7 +105,7 @@
   }
   .promo-list {
     display: flex;
-    gap: 24px;
+    justify-content: space-between;
     margin-bottom: 120px;
   }
   .team {
@@ -111,7 +113,8 @@
     padding-bottom: 120px;
   }
   .team-list {
-    gap: 24px;
+    justify-content: space-between;
+  
   }
   /* --------Customers---------------- */
   .customers {
@@ -119,7 +122,7 @@
     padding-bottom: 120px;
   }
   .customers-list {
-    gap: 24px;
+    justify-content: space-between;
   }
   .customers-list-link {
     width: 168px;
@@ -135,17 +138,15 @@
     max-width: 264px;
   }
   .footer-container {
-    padding-left: 0;
+    justify-content: space-between;
   }
-  .footer-soc {
-    margin-left: 120px;
-  }
+  
   .footer-title {
     text-align: left;
   }
   .footer-subscribe {
-    margin-left: 21px;
-  }
+justify-content: flex-end;  }
+
   .title-subscribe {
     margin-top: 0;
   }

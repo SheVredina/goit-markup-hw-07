@@ -60,6 +60,8 @@ body {
 .container {
   width: 100%;
   margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
   /* outline: 1px solid red; */
 }
 /* Header */
@@ -230,6 +232,7 @@ body {
 }
 .team-list {
   display: flex;
+  gap: 24px;
 }
 .team-list-item {
   width: calc(100% - 72px) / 4;

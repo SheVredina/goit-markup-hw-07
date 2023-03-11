@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px) {
   .container {
     max-width: 396px;
+  
     /* outline: 1px solid gray; */
   }
 
@@ -16,8 +17,9 @@
  .open {
 color: #4d5ae5;
  }
+
   .banner {
-    /* width: 428px; */
+    max-width: 428px;
     height: 432px;
     padding-top: 112px;
     margin-bottom: 96px;
@@ -28,8 +30,14 @@ color: #4d5ae5;
     font-size: 36px;
     line-height: 1.11;
   }
-  .feature {
-    padding: 0;
+  
+  .customers-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .team-container {
+ padding-left: 0;
+ padding-right: 0;
   }
 
   .feature-list-tytle {
@@ -67,12 +75,15 @@ color: #4d5ae5;
     width: 267px;
   }
   .no-centr {
-    justify-content: left;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0;
   }
 
   .customers {
     padding-top: 96px;
     padding-bottom: 96px;
+ 
   }
   .customers-list {
     justify-content: center;
